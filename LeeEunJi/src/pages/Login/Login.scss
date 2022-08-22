@@ -1,0 +1,73 @@
+$border-style: 1px solid lightgrey;
+$input-font-family: initial;
+
+@font-face {
+  font-family: "fonts";
+  src: url("../../assets/Fonts/Lobster-Regular.woff");
+}
+
+.login {
+  border: $border-style;
+  border-radius: 2px;
+  width: 400px;
+  height: 430px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .fonts {
+    margin-top: 15px;
+    font-family: "fonts";
+    font-size: 45px;
+    height: 88px;
+  }
+
+  .form {
+    height: 35px;
+    padding: 5px 8px;
+    font-family: $input-font-family;
+    input::placeholder {
+      color: rgb(160, 160, 160);
+    }
+
+    .form-design {
+      width: 300px;
+      height: 35px;
+      padding-left: 10px;
+      font-size: 12px;
+      outline: none;
+      background-color: rgb(243, 243, 243);
+      border: $border-style;
+      font-family: $input-font-family;
+      font-weight: bold;
+      border-radius: 3px;
+    }
+  }
+
+  #login {
+    margin-top: 14px;
+    width: 316px;
+    height: 32px;
+    background-color: rgb(190, 220, 248);
+    border: white;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+
+  #password {
+    margin-top: 150px;
+    color: rgb(11, 88, 160);
+    border: white;
+    background-color: white;
+    font-size: 12px;
+  }
+
+  button[disabled] {
+    cursor: default;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}

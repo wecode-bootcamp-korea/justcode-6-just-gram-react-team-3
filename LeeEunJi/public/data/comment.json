@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "comments": [
+    {
+      "commentnum": 1,
+      "feedNum": 0,
+      "userName": "Choo",
+      "comment": "안녕! 귀여워!!!",
+      "createdAt": "2022.03.13. 오후 12:02:56"
+    },
+    {
+      "commentnum": 2,
+      "feedNum": 1,
+      "userName": "Lee",
+      "comment": "좋아요",
+      "createdAt": "2022.03.15. 오후 12:05:56"
+    },
+    {
+      "commentnum": 3,
+      "feedNum": 1,
+      "userName": "Park",
+      "comment": "우오오오오",
+      "createdAt": "2022.03.10. 오후 11:01:15"
+    },
+    {
+      "commentnum": 4,
+      "feedNum": 2,
+      "userName": "Kim",
+      "comment": "이야...",
+      "createdAt": "2022.06.18. 오후 10:05:56"
+    }
+  ]
+}
