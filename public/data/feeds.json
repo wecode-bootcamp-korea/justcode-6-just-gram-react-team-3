@@ -1,0 +1,46 @@
+{
+  "feedData": [
+    {
+      "feedId": 1,
+      "username": "정동현",
+      "feedImages": [
+        {
+          "imageId": 101,
+          "imageUrl": "https://image.winudf.com/v2/image1/Z29yYXBwLmphcGFuLndhbGxwYXBlcl9zY3JlZW5fMF8xNjI2NzY2MTI3XzAxMw/screen-0.jpg?fakeurl=1&type=.webp"
+        },
+        {
+          "imageId": 102,
+          "imageUrl": "https://p4.wallpaperbetter.com/wallpaper/224/515/805/street-japan-wallpaper-preview.jpg"
+        }
+      ]
+    },
+    {
+      "feedId": 2,
+      "username": "유제영",
+      "feedImages": [
+        {
+          "imageId": 201,
+          "imageUrl": "https://res.cloudinary.com/jnto/image/upload/w_1400,f_auto,fl_lossy,q_auto,c_scale/v1/media_experiences/filer_public/2020-03-18/it485_002_k99na4"
+        },
+        {
+          "imageId": 202,
+          "imageUrl": "https://tumblbug-pci.imgix.net/5459c246c06674e0e7d6c3e9aee48d3e30969346/f730bd12dcaa374a19d198bfb8dc1ddbed5db820/800ef7b1f8177e038a607924bc8e7f1b2fb3ad58/ccb3dd59-a444-4da9-b8f9-e04d4b3671df.png?ixlib=rb-1.1.0&w=1240&h=930&auto=format%2Ccompress&lossless=true&fit=crop&s=358e47d50f489840ca102872289951e4"
+        }
+      ]
+    },
+    {
+      "feedId": 3,
+      "username": "홍권창",
+      "feedImages": [
+        {
+          "imageId": 301,
+          "imageUrl": "https://cdn.pixabay.com/photo/2018/05/08/17/18/festival-3383469__340.jpg"
+        },
+        {
+          "imageId": 302,
+          "imageUrl": "https://c.wallhere.com/images/a1/58/d0b73b1a034509736679fb1c2dcc-1964483.png!d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,17 +1,18 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Comment from "./comment";
 
-function Feed() {
+function Feed({ feedData }) {
   // const [comment, setcomment] = useState();
   const [id, setId] = useState(1);
   const [InputState, setInput] = useState("");
   const value = useRef();
-  const [commentArray, setcommentArray] = useState([
-    {
-      id: 0,
-      content: "안녕하세요",
-    },
-  ]);
+  const [commentArray, setcommentArray] = useState([]);
+
+  useEffect(() => {
+    fetch("/data/comments.json")
+      .then((res) => res.json())
+      .then((data) => setcommentArray(data.comments));
+  }, []);
 
   const addComment = () => {
     setId(id + 1);
@@ -36,9 +37,15 @@ function Feed() {
       <div className="content">
         <div className="feed_header">
           <div className="profile_picture"></div>
-          <div className="user_id">JeongDongHyeon</div>
+          <div className="user_id">{feedData.username}</div>
         </div>
-        <div className="feed_picture"></div>
+        <div className="pictureBox">
+          <img
+            alt=""
+            className="feed_picture"
+            src={feedData.feedImages[0].imageUrl}
+          ></img>
+        </div>
 
         <div className="menu_bar">
           <div className="menu_bar_icon">
@@ -94,7 +101,7 @@ function Feed() {
           </div>
 
           <div className="function_tab">
-            <div className="ago_time">n분 전</div>
+            <div className="ago_time">28분 전</div>
             <div className="like_heart_btn">
               <img
                 alt=""
